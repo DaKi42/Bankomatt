@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     bankmat atm("Sadovaya 3", 1000, 1, 100);
 
-    atm.show_info();
+    atm.show_info(); 
 
     int amount_to_withdraw = 50;
     int withdrawn_amount = atm.withdraw_funds(amount_to_withdraw);

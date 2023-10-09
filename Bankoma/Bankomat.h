@@ -7,7 +7,7 @@ using namespace std;
 class bankmat {
     string machine_address;
     int machine_balance;
-    int min_nominal_value;
+    int min_nominal_value; 
     int max_nominal_value;
     int machine_id;
     int nominals[6] = { 10, 50, 100, 200, 500, 1000 };

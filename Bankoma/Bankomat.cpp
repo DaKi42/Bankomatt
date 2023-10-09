@@ -27,7 +27,7 @@ void bankmat::set_machine_id(int new_id) {
 }
 
 void bankmat::deposit_funds(int amount) {
-    bool valid_denomination = false;
+    bool valid_denomination = false; 
     int valid_denominations[] = { 10, 50, 100, 200, 500, 1000 };
 
     for (int i = 0; i < 6; i++) {
